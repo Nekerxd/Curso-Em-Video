@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+        @font-face {
+            font-family: "Romantic Fantasy";
+            src: url("fonts/romantic fantasy.ttf") format("truetype");
+            /* Tipos de format()
+                - opentype (otf)
+                - trutype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg */
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            font-family: Pacifico, Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: black;
+        }
+
+        h1 {
+            font-family: Romantic Fantasy, Arial, Helvetica, sans-serif;
+            font-size: 3em;
+            font-weight:normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit nemo nihil quas numquam a, ut deleniti aperiam impedit necessitatibus quibusdam nulla quo culpa. Molestiae modi officiis perspiciatis similique maxime.</p>
+</body>
+</html>
